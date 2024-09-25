@@ -1,0 +1,22 @@
+import { NavLink } from "react-router-dom"
+
+function Header (){
+    return(
+        <>
+            <header>
+                <nav>
+                    <div><a className="logo" href="#hero">Fórmula E</a></div>
+                    <ul>
+                        <li><NavLink to='/'>Home</NavLink></li>
+                        <li><NavLink to='/carros'>Carros</NavLink></li>
+                        <li><NavLink to=''>Pilotos</NavLink></li>
+                        <li><NavLink to='/streaming'>Streaming</NavLink></li>
+                        <li><NavLink to=''>Notícias</NavLink></li>
+                        <li><NavLink to=''>Contato</NavLink></li>
+                    </ul>
+                </nav>
+            </header>
+        </>
+    )
+}
+export default Header
