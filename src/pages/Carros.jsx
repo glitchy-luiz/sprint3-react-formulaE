@@ -11,7 +11,7 @@ function Carros (){
             texto: 'Os carros da Fórmula E são projetados para alcançar velocidades de até 280 km/h, combinando potência e eficiência.'
         },
         {
-            img: 'img/carro2.jpg',
+            img: 'https://via.placeholder.com/600x300',
             titulo: 'Sustentabilidade',
             texto: 'Com zero emissões de carbono, esses carros são um marco na luta pela preservação do meio ambiente.'
         },
