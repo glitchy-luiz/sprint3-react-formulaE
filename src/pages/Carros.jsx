@@ -33,7 +33,7 @@ function Carros (){
 
             <section className="grid-section">
                 <h2 className="section-title">Carros em Destaque</h2>
-                <div className="grid-container">
+                <div className="grid-container-carros">
                     <Cardcarros dados={cards}/>
                 </div>
             </section>

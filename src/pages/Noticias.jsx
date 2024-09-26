@@ -1,5 +1,5 @@
 import Cardnoticias from '../components/Cardnoticias'
-// import './noticias.css'
+import './noticias.css'
 
 function Noticias (){
 
@@ -23,7 +23,7 @@ function Noticias (){
 
     return(
         <>
-            <section className="grid-container">
+            <section className="grid-container-noticias">
                 <Cardnoticias dadosnoticia={noticias}/>
             </section>
         </>
