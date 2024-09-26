@@ -96,13 +96,13 @@ main {
     width: 50%;
 }
 
-h2 {
+.h2Noticia {
     font-size: 1.5rem;
     margin-bottom: 10px;
     color: #000;
 }
 
-p {
+.pNoticia {
     font-size: 1rem;
     margin-bottom: 15px;
     color: #000;

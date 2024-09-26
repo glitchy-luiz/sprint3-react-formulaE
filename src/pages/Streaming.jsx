@@ -6,14 +6,17 @@ function Streaming(){
         <>
             <main>
                 <section id="live-stream">
-                    <div class="stream-grid">
-                        <div class="main-stream">
-                            <iframe src="https://www.youtube.com/watch?v=63WgbfejAVM" frameborder="0" allowfullscreen></iframe>
+                    <div className="stream-grid">
+                        <div className="main-stream">
+                        <iframe id="livestream" width="100%" height="300px" 
+                            src="https://www.youtube.com/embed/live_stream?channel=UC-DDZtrRWiRrRKjtwdJjSBQ" 
+                            frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
                         </div>
-                        <div class="stream-chat">
-                            <div class="chat-header">Chat ao Vivo</div>
-                            <div class="chat-body">
-                                <iframe src="" frameborder="0"></iframe>
+                        <div className="stream-chat">
+                            <div className="chat-header">Chat ao Vivo</div>
+                            <div className="chat-body">
+                                <iframe src="" frameBorder="0"></iframe>
                             </div>
                         </div>
                     </div>
