@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import Carros from './pages/Carros.jsx'
 import Streaming from './pages/Streaming.jsx'
+import Noticias from './pages/Noticias.jsx'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: 'streaming',
         element: <Streaming/>
+      },
+      {
+        path: 'noticias',
+        element: <Noticias/>
       }
     ]
   }

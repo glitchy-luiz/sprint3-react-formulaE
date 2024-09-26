@@ -31,9 +31,9 @@ function Carros (){
         <>
             <Secaoinicial titulo='Carros Elétricos da Fórmula E' subtitulo='Alta performance, design moderno e zero emissões.' img='url(/src/assets/legoCarro.webp)'/>
 
-            <section class="grid-section">
-                <h2 class="section-title">Carros em Destaque</h2>
-                <div class="grid-container">
+            <section className="grid-section">
+                <h2 className="section-title">Carros em Destaque</h2>
+                <div className="grid-container">
                     <Cardcarros dados={cards}/>
                 </div>
             </section>

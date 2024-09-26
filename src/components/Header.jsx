@@ -11,7 +11,7 @@ function Header (){
                         <li><NavLink to='/carros'>Carros</NavLink></li>
                         <li><NavLink to=''>Pilotos</NavLink></li>
                         <li><NavLink to='/streaming'>Streaming</NavLink></li>
-                        <li><NavLink to=''>Notícias</NavLink></li>
+                        <li><NavLink to='/noticias'>Notícias</NavLink></li>
                         <li><NavLink to=''>Contato</NavLink></li>
                     </ul>
                 </nav>
