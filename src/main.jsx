@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx'
 import Carros from './pages/Carros.jsx'
 import Streaming from './pages/Streaming.jsx'
 import Noticias from './pages/Noticias.jsx'
+import Login from './pages/Login.jsx'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: 'noticias',
         element: <Noticias/>
+      },
+      {
+        path: 'login',
+        element: <Login/>
       }
     ]
   }

@@ -17,6 +17,8 @@ function Streaming(){
                             <div className="chat-header">Chat ao Vivo</div>
                             <div className="chat-body">
                                 <iframe src="" frameBorder="0"></iframe>
+                                <input className="text-chat" type="text-chat" placeholder="Chat"/>
+                                <button id="btnCriar">Enviar</button>
                             </div>
                         </div>
                     </div>
