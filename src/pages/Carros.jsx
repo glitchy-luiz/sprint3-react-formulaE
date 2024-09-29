@@ -29,7 +29,7 @@ function Carros (){
 
     return(
         <>
-            <Secaoinicial titulo='Carros Elétricos da Fórmula E' subtitulo='Alta performance, design moderno e zero emissões.' img='url(/src/assets/legoCarro.webp)'/>
+            <Secaoinicial titulo='Carros Elétricos da Fórmula E' subtitulo='Alta performance, design moderno e zero emissões.' img='url(/src/assets/formulaEcarros.webp)'/>
 
             <section className="grid-section">
                 <h2 className="section-title">Carros em Destaque</h2>

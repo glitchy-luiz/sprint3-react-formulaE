@@ -8,6 +8,7 @@ import Carros from './pages/Carros.jsx'
 import Streaming from './pages/Streaming.jsx'
 import Noticias from './pages/Noticias.jsx'
 import Login from './pages/Login.jsx'
+import Videotime from './pages/Videotime.jsx'
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: 'login',
         element: <Login/>
+      },
+      {
+        path: 'videotime/:time/:video',
+        element: <Videotime/>
       }
     ]
   }
